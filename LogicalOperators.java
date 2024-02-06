@@ -1,4 +1,4 @@
-public class RelationalLogicalOperators {
+public class LogicalOperators {
     public static void main(String[] args) {
         boolean a = true;
         boolean b = false;
