@@ -1,6 +1,5 @@
 public class OperationOnArrays {
     public static void main(String[] args) {
-//        float [] marks = {98.5f, 75.5f, 89.0f, 99.5f, 80.0f};
         int [] marks = {98, 75, 89, 99, 80};
 
         System.out.println(marks.length);
@@ -22,5 +21,15 @@ public class OperationOnArrays {
         for(int element: marks) {
             System.out.println(element);
         }
+        System.out.println();
+
+        float [] marks2 = {98.5f, 75.5f, 89.0f, 99.5f, 80.0f};
+        float sum = 0;
+
+        for (float element:marks2){
+            sum = sum + element;
+            System.out.println("Marks: "+ element);
+        }
+        System.out.println("The total marks obtained: "+ sum);
     }
 }
