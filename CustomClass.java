@@ -28,7 +28,7 @@ public class CustomClass {
         john.salary = 29;
 
         // Printing the Attributes
-        System.out.println("ID: "+ john.id + ", Name: "+ john.name);
+//        System.out.println("ID: "+ john.id + ", Name: "+ john.name);
 
         // Using member functions of the Employee class
         john.printDetails();
