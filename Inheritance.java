@@ -7,9 +7,6 @@ class Base{
     public int getX(){
         return x;
     }
-    public void printMe(){
-        System.out.println(("I'm a constructor"));
-    }
 }
 class Derived extends Base{
     int y;
