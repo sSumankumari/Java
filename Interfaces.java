@@ -31,7 +31,7 @@ class AvonCycle implements Bicycle, HornBicycle{
     }
 }
 
-public class IntroToInterfaces {
+public class Interfaces {
     public static void main(String[] args) {
         AvonCycle avncy = new AvonCycle();
         System.out.println("Speed of the Cycle: "+ avncy.speed);
