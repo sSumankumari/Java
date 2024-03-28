@@ -1,4 +1,5 @@
 class MyThreadRunnable1 implements Runnable {
+    @Override
     public void run() {
         while (true) {
             System.out.println("This is thread class 1 (gun1 with bullet1)");
@@ -7,6 +8,7 @@ class MyThreadRunnable1 implements Runnable {
 }
 
 class MyThreadRunnable2 implements Runnable {
+    @Override
     public void run() {
         while (true) {
             System.out.println("This is thread class 2 (gun2 with bullet2)");
