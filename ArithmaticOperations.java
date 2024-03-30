@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class ArithmaticOperations {
     public static void main(String[] args) {
-        System.out.println("Enter your operator (+,-,*,/): ");
+        System.out.println("'+' for Addition, '-' for Subtraction, '*' for Multiplication & '/' for Division");
+        System.out.println("Enter your operator: ");
         Scanner sc = new Scanner(System.in);
         String op = sc.nextLine();
 
